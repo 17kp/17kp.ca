@@ -1,7 +1,7 @@
 <?php
 
 function goToMainSite () {
-  header('Location: http://17thousandpages.ca', true, 301);
+  header('Location: http://17thousandpages.ca/', true, 301);
   exit;
 }
 
